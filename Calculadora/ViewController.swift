@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     @IBAction func clearButton(_ sender: Any) {
         primero = ""
         segundo = ""
+        funcion = ""
         userInput = ""
         resultado = 0.0
         calculatorDisplay.text = "0"
@@ -82,7 +83,8 @@ class ViewController: UIViewController {
             resultado = primerInput * segundoInput
             calculatorDisplay.text = String(resultado)
             
-        } else if(funcion == "/"){
+        } else
+        {
             resultado = primerInput / segundoInput
             calculatorDisplay.text = String(resultado)
             
