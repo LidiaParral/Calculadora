@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var primero = ""
-    var segundo = ""
+    var primero  = ""
+    var segundo  = ""
     var funcion = ""
     var resultado = 0.0
     var userInput = ""
@@ -63,6 +63,7 @@ class ViewController: UIViewController {
         funcion = "-"
         primero = userInput
         userInput = ""
+        
     }
     
     @IBAction func igualButton(_ sender: Any) {
